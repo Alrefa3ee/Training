@@ -1,5 +1,5 @@
 from string import ascii_uppercase
-# import Dijkstra
+from ..algorithms.Dijkstra import shortest_path
 
 M = [  [0 ,25, 20 ,10 ,105],
         [20 ,0 ,15, 80 ,80],
@@ -16,4 +16,4 @@ for k,v in g.items():
 
 
 
-# print(Dijkstra.shortest_path(g,"A","E"))
+print(shortest_path(g,"A","E"))

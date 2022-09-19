@@ -1,4 +1,4 @@
-from BS import binary_search as search
+from ..algorithms.BS import binary_search as search
 import time 
 def find_house(num,house):
     houses = [*range(1,num*2+1)]
